@@ -119,7 +119,7 @@ Developed by **[Your Name]** .
 💡 Feel free to connect on **[LinkedIn](your-linkedin) | [GitHub](your-github)**!  
 
 ---
-```
+
 
 ### 💡 **Key Enhancements**
 - GitHub-friendly **Markdown format**  
