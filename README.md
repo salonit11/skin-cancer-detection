@@ -1,4 +1,4 @@
-```md
+
 # 🩺 Skin Cancer Detection using CNN  
 
 A deep learning-based **Skin Cancer Classification** model trained using **Convolutional Neural Networks (CNN)**. The model is optimized with **Early Stopping** and **ReduceLROnPlateau**, achieving **93.7% validation accuracy**. A **Streamlit web app** is also provided for real-time predictions.
