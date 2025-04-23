@@ -38,7 +38,7 @@ The dataset consists of **benign and malignant** skin lesion images, preprocesse
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/salonit11/skin-cancer-detection.git
 cd skin-cancer-detection
 pip install -r requirements.txt
 ```
