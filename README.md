@@ -23,12 +23,12 @@ The dataset consists of **13,900 high-resolution benign and malignant** skin les
 
 | Metric  | Value |
 |---------|------|
-| **Training Accuracy** | 0.895 |
-| **Validation Accuracy** | 0.890 |
-| **Test Accuracy** | 0.888 |
-| **Precision (Benign, Malignant)** | (0.89, 0.88) |
-| **Recall (Benign, Malignant)** | (0.88, 0.89) |
-| **F1-score (Benign, Malignant)** | (0.89, 0.89) |
+| **Training Accuracy** | 93.75% |
+| **Validation Accuracy** | 87.18% |
+| **Test Accuracy** | 90.4% |
+| **Precision (Benign, Malignant)** | (0.90, 0.90) |
+| **Recall (Benign, Malignant)** | (0.90, 0.90) |
+| **F1-score (Benign, Malignant)** | (0.90, 0.90) |
 
 **All three accuracies are consistent**, indicating proper model generalization with no overfitting or data leakage.
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️‍♂ Model Training  
+## Model Training  
 
 ###  Training Steps  
 1. **Data Splitting:** 70% training, 20% validation, 10% test (proper separation)  
@@ -77,11 +77,11 @@ reduce_lr = ReduceLROnPlateau(
 
 ---
 
-## 🌍 Web App (Streamlit)  
+## Web App (Streamlit)  
 
 A **user-friendly Streamlit interface** for real-time skin lesion classification.
 
-### ▶️ Run the Web App  
+### Run the Web App  
 ```bash
 streamlit run app.py
 ```
@@ -126,7 +126,7 @@ This project is open-source under the **MIT License**.
 ##  Author  
 Developed by Saloni Trivedi.  
 
-### 💡 **Key Improvements in This Version**
+### **Key Improvements in This Version**
 - **Fixed data pipeline** with proper 70-20-10 split
 - **Test accuracy improved** from 50% to 89%
 - **All metrics now consistent** (no more overfitting)
